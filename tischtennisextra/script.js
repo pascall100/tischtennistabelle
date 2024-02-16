@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   // Beispiel-Spielerdaten
   const spieler = [
-    { platz: 1, name: "Max Mustermann", spiele: 5, gewonnen: 4, verloren: 1, punkte: 12 },
+    { platz: 1, name: "Max Muster", spiele: 5, gewonnen: 4, verloren: 1, punkte: 12 },
     { platz: 2, name: "Lisa Beispiel", spiele: 5, gewonnen: 3, verloren: 2, punkte: 9 }
   ];
 
