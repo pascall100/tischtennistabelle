@@ -1,0 +1,35 @@
+#tischtennis-tabelle {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  th {
+    background-color: #8173e2;
+    color: white;
+  }
+  
+  /* Zebra-Streifen für verbesserte Lesbarkeit */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style für den Kopf der Tabelle */
+  thead {
+    font-weight: bold;
+  }
+  
+  /* Media Query für kleinere Bildschirmgrößen */
+  @media screen and (max-width: 600px) {
+    th, td {
+      padding: 8px; /* Verringere den Zellenabstand für kleinere Bildschirme */
+    }
+  }
+  
